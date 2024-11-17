@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="text-light p-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Logo -->
+                <img src="images/logo.png" alt="Logo" class="logo-img img-fluid">
+
+                <!-- Navigation Bar -->
+                <nav class="d-none d-md-block">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="resume.pdf" class="btn btn-primary ms-3" download>Resume</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Hamburger Menu for Mobile -->
+                <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-light"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="collapse d-md-none mt-3" id="mobileMenu">
+                <nav>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="resume.pdf" class="btn btn-primary mt-2" download>Resume</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Main Section -->
+    <main class="container my-5">
+
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="main-head">HI!<br> I'M SHIHAB SHAHRIAR</h1>
+                <p class="subtitle">Web Developer || React Developer || Programmer</p>
+                <p class="description">
+                    I am an enthusiastic JavaScript developer with knowledge of frameworks for the<br>
+                    frontend and backend. I know Basic PHP and MySQL but am basically a MERN developer.
+                </p>
+                
+                <div class="social-icons mt-4 d-flex align-items-center">
+                    <a href="https://github.com/mdshihabshahriar" class="icon-link me-3"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/shihab-shahriar-5a5540281/" class="icon-link me-3"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/iamshihabshahriar/" class="icon-link me-3"><i class="fab fa-facebook"></i></a>
+                    <a href="resume.pdf" class="btn btn-primary ms-3" download>Resume</a>
+                </div>
+            </div>
+        
+            <div class="col-md-6 text-center">
+                <img src="images/profile2.png" alt="Profile Picture" class="profile-img img-fluid">
+            </div>
+        </div>
+        
+        <!-- Portfolio Section -->
+        <section class="portfolio-section text-light">
+            <div class="container py-5">
+                <h2 class="text-center mb-5">Portfolio</h2>
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 mb-4 mb-md-0">
+                        <div id="carouselOne" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/Travel-Search.png" alt="Project Image 1" class="img-fluid rounded">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/travel-guru-map.png" alt="Project Image 2" class="img-fluid rounded">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselOne" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselOne" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+            
+                    <div class="col-12 col-md-6">
+                        <h3 class="project-title">Online University <i class="fas fa-graduation-cap"></i> <i class="fas fa-laptop-code"></i></h3>
+                        <p>
+                            An online university is a higher education institution that offers degree programs, courses, and certifications entirely over the internet. 
+                            This type of university allows students to complete their education from anywhere in the world, as long as they have access to a computer and the internet.
+                        </p>
+                        <ul>
+                            <li>Flexible Learning</li>
+                            <li>Variety of Programs</li>
+                            <li>Interactive Learning</li>
+                            <li>Global Accessibility</li>
+                        </ul>
+
+                        <div class="tags mt-3">
+                            <span class="badge bg-primary">React</span>
+                            <span class="badge bg-secondary">Firebase</span>
+                            <span class="badge bg-success">HTML</span>
+                            <span class="badge bg-danger">CSS</span>
+                            <span class="badge bg-warning text-dark">Node</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container py-5">
+                <div class="row align-items-center">
+
+                    <div class="col-12 col-md-6 mb-4 mb-md-0">
+                        <div id="carouselOne" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+                                    <img src="images/travel-guru-map.png" alt="Project Image 1" class="img-fluid rounded">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="images/Travel-Search.png" alt="Project Image 2" class="img-fluid rounded">
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselOne" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselOne" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <h3 class="project-title">Online University <i class="fas fa-graduation-cap"></i> <i class="fas fa-laptop-code"></i></h3>
+                        <p>
+                            An online university is a higher education institution that offers degree programs, courses, and certifications entirely over the internet. 
+                            This type of university allows students to complete their education from anywhere in the world, as long as they have access to a computer and the internet.
+                        </p>
+                        <ul>
+                            <li>Flexible Learning</li>
+                            <li>Variety of Programs</li>
+                            <li>Interactive Learning</li>
+                            <li>Global Accessibility</li>
+                        </ul>
+                            
+                            <div class="tags mt-3">
+                            <span class="badge bg-primary">React</span>
+                            <span class="badge bg-secondary">Firebase</span>
+                            <span class="badge bg-success">HTML</span>
+                            <span class="badge bg-danger">CSS</span>
+                            <span class="badge bg-warning text-dark">Node</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="container py-5">
+
+            <div class="mb-4">
+                <h3 class="section-title" id="exp">Expertise:</h3>
+                <div class="badge-group">
+                    <span class="badge bg-primary">React.js</span>
+                    <span class="badge">Javascript</span>
+                    <span class="badge bg-warning text-dark">Node.js</span>
+                    <span class="badge bg-secondary">Firebase</span>
+                    <span class="badge bg-danger">Express.js</span>
+                    <span class="badge bg-success">HTML</span>
+                    <span class="badge">Bootstrap</span>
+                    <span class="badge bg-primary">MongoDB</span>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <h3 class="section-title" id="exp">Comfortable:</h3>
+                <div class="badge-group">
+                    <span class="badge bg-primary">SQL</span>
+                    <span class="badge">Redux</span>
+                    <span class="badge bg-success">Socket.io</span>
+                    <span class="badge bg-danger">AWS</span>
+                    <span class="badge bg-warning text-dark">Docker</span>
+                    <span class="badge">TypeScript</span>
+                    <span class="badge bg-primary">Next.js</span>
+                </div>
+            </div>
+            
+            <div class="mb-4">
+                <h3 class="section-title" id="exp">Familiar:</h3>
+                <div class="badge-group">
+                    <span class="badge">C++</span>
+                    <span class="badge bg-primary">Python</span>
+                    <span class="badge bg-success">Spring Boot</span>
+                    <span class="badge bg-danger">Networking</span>
+                </div>
+            </div>
+            
+            <div class="mb-5">
+                <h3 class="section-title" id="exp">Tools:</h3>
+                <div class="badge-group">
+                    <span class="badge bg-primary">VS Code</span>
+                    <span class="badge bg-success">JIRA</span>
+                    <span class="badge bg-danger">Trello</span>
+                    <span class="badge bg-warning text-dark">Git</span>
+                </div>
+            </div>
+        
+            <div class="education">
+                <h2>My Education</h2>
+                <p>B.Sc in Computer Science & Engineering</p>
+                <p>American International University-Bangladesh</p>
+                <p>2023-2027</p>
+            </div>
+        </div>
+    <div class="contact-container">
+        <h2>Contact With Me</h2>
+        <div class="form-container">
+            <form class="form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Please type your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required placeholder="Please type your email">
+                </div>
+                <div class="form-group">
+                    <label for="textarea">How Can I Help You?</label>
+                    <textarea name="textarea" id="textarea" rows="5" required placeholder="Type here your message"></textarea>
+                </div>
+                <button class="form-submit-btn" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    </main>
+
+    <footer class="footer bg-dark text-center py-4">
+        <div class="container">
+          <p class="mb-1">Copyright © 2024 | shihab shahriar</p>
+          <p class="mb-3">Dhaka, Bangladesh</p>
+          <div class="footer-icons">
+            <a href="https://github.com/mdshihabshahriar" class="mx-2"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/shihab-shahriar-5a5540281/" class="mx-2"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/iamshihabshahriar/" class="mx-2"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
